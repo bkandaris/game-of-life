@@ -12,7 +12,7 @@ function App() {
       <Switch>
         <div className='app'>
           <Nav />
-          <Route exact path='/' component={Game} />
+          <Route exact path='/game-of-life' component={Game} />
           <Route path='/rules' component={Rules} />
           <Route path='/automata' component={Automata} />
         </div>
